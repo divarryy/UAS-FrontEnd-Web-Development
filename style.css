@@ -1,0 +1,395 @@
+/* Mengatur font untuk seluruh halaman */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+/* Home Section Styles */
+#home {
+  padding: 100px;
+  text-align: center;
+  background-color: #212529;
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+/* Profile Image Styles */
+.img-fluid {
+  border: 20px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+#hire-me-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Animation for the Home Section */
+#home .container {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* About Section Styles */
+#about {
+  padding: 40px;
+}
+
+.section-title {
+  color: #343a40;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card i {
+  color: #007bff;
+}
+
+.card-title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Skills Section Styles */
+#myskills {
+  padding: 10px;
+}
+
+.section-title {
+  color: #343a40;
+  padding: 80px;
+}
+
+.skills {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-item {
+  margin-bottom: 30px;
+}
+
+.skill-item h4 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.progress {
+  height: 30px;
+  border-radius: 15px;
+}
+
+.progress-bar {
+  border-radius: 15px;
+}
+
+/* Hover Effect pada Skill Items */
+.skill-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Media Query untuk responsivitas */
+@media (max-width: 768px) {
+  .skill-item {
+    text-align: center;
+  }
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 40px;
+  background-color: #343a40;
+}
+
+.section-title {
+  color: #fff;
+}
+
+.section-subtitle {
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#testimonials h2 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#testimonials .card {
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 100%;
+}
+
+#testimonials .card-body {
+  padding: 0;
+}
+
+#testimonials .card-body img {
+  width: 100%;
+  height: auto;
+}
+
+#testimonials h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#testimonials p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#testimonials .fa-star {
+  color: #ffc107;
+  font-size: 24px;
+}
+
+#testimonials .fa-star-half {
+  color: #ffc107;
+  font-size: 24px;
+}
+
+#testimonials .carousel-indicators li {
+  background-color: #ccc;
+  border: 1px solid #888;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#testimonials .carousel-indicators li.active {
+  background-color: #555;
+}
+
+#testimonials .carousel-indicators {
+  bottom: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-indicators {
+    bottom: 10px;
+  }
+}
+
+#testimonials .carousel-control-prev-icon:hover,
+#testimonials .carousel-control-next-icon:hover {
+  opacity: 1;
+}
+
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+  top: auto;
+  bottom: 0;
+  z-index: 1;
+}
+
+#testimonialCarousel .carousel-control-prev,
+#testimonialCarousel .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#testimonialCarousel .carousel-control-prev {
+  left: -5px;
+}
+
+#testimonialCarousel .carousel-control-next {
+  right: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-item .row .col-8 {
+    width: 100%;
+  }
+}
+
+/* Contact Section */
+#contact {
+  padding: 40px;
+}
+#contact .row {
+  display: flex;
+  justify-content: center;
+}
+
+#contant .col-md-8 {
+  margin: auto;
+}
+
+#contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#contact p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+#contact form {
+  margin-bottom: 50px;
+}
+
+#contact form label {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+#contact form button {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact form button:hover {
+  background-color: blue;
+}
+/* social media icon */
+#contact .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .social-icons a {
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.5);
+}
+
+#contact .social-icons a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <title>Portofolio Web Developer</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+     <!-- Bootstrap Font Icon CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portofolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myskills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Home -->
+    <section id="home" class="home bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h3>Hello, It's Me</h3>
+            <h1 class="text-primary">Ari Yuda</h1>
+            <h3>And I'm a <span class="multiple-text text-primary"></span></h3>
+            <p class="lead text-justify">I am a student who has expertise in the field of web development. I can create responsive, interactive and modern websites using HTML, CSS, Bootstrap, JavaScript.</p>
+            <a href="#contact" id="hire-me-button" class="btn btn-primary">Hire Me</a>
+          </div>
+          <div class="col-md-6 align-items-center d-flex justify-content-center">
+            <img src="profile_saya.jpeg" alt="#" class="img-fluid rounded-circle d-block mx-auto" />
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Home -->
+
+    <!-- About -->
+    <section id="about" class="about bg-light">
+      <div id="about-info" class="container">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-justify">
+          I am a student in the Information Technology Study Program with a strong enthusiasm for learning both in and outside the classroom. I possess the ability to adapt, demonstrate honesty, responsibility, and am motivated to
+          contribute to the social environment. My goal is to make a positive impact, particularly in the field of technology.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa fa-code fa-4x"></i>
+                <h4 class="card-title">Coding</h4>
+                <p class="card-text text-justify">I love coding and writing clean and efficient code. I always try to follow the best practices and standards in web development. and always practice via the YouTube platform.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa fa-laptop fa-4x"></i>
+                <h4 class="card-title">Designing</h4>
+                <p class="card-text text-justify">I have a good sense of design and I can create websites that are visually appealing and easy to use. I use tools such as Figma to design my websites.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa fa-rocket fa-4x"></i>
+                <h4 class="card-title">Learning</h4>
+                <p class="card-text text-justify">I am always eager to learn new things and improve my skills. I like to explore new technologies and frameworks that can help me create better websites.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+               <div class="card-body">
+                 <i class="fa fa-graduation-cap fa-4x"></i>
+                 <h4 class="card-title">Education</h4>
+                 <p class="card-text text-justify">
+                  I am currently studying Information Technology at Skuy Living University. Previously, I completed my high school diploma at SMAN 88 Tanjung Pinang in 2019.
+               </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+               <div class="card-body">
+                 <i class="fa fa-briefcase fa-4x"></i>
+                 <h4 class="card-title">Experience</h4>
+                 <p class="card-text text-justify">During my time at university, I had the opportunity to work on a project to develop a comprehensive online shop website for a final project for an organization.</p>
+               </div>
+            </div>
+          </div>  
+          <div class="col-md-4">
+            <div class="card text-center">
+               <div class="card-body">
+                 <i class="fa fa-heart fa-4x"></i>
+                 <h4 class="card-title">Life Motto</h4>
+                 <blockquote class="card-text text-justify">"Success is not final, failure is not fatal: it is the courage to continue that counts." - This motto, emphasizes resilience and the importance of not being discouraged by setbacks.</blockquote>
+               </div>
+            </div>
+           </div>         
+        </div>
+      </div>
+    </section>
+    <!-- End of about -->
+
+    <!-- skilss -->
+    <section id="myskills" class="myskills bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+          <h2 class="section-title text-primary text-center">My Skills</h2>
+            <p class="skill-text text-justify">
+              I have experience in developing websites using HTML, CSS, JavaScript, and Bootstrap. I can create responsive and user-friendly websites that meet the client's requirements and expectations.
+            </p>
+            <div class="skills">
+              <div class="skill-item">
+               <h4><i class="bi bi-code"></i> HTML</h4>
+                <div class="progress">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+              </div>
+              <div class="skill-item">
+               <h4><i class="bi bi-brush"></i> CSS</h4>
+                <div class="progress">
+                 <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+               </div>
+              </div>
+              <div class="skill-item">
+               <h4><i class="bi bi-bootstrap"></i> Bootstrap</h4>
+               <div class="progress">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+              </div>
+              <div class="skill-item">
+               <h4><i class="bi bi-lightbulb"></i> JavaScript</h4>
+               <div class="progress">
+                 <div class="progress-bar bg-primary" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of skills -->
+
+    <!-- Projects -->
+    <section id="projects" class="projects bg-dark text-white">
+      <div class="container">
+        <h2 class="section-title text-center">My Projects</h2>
+        <p class="section-subtitle text-center">Here are some website projects that I have created:</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="project_1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">This is a website that I created for a client who wants to display services operating in the field of waste recycling. This is a responsive and elegant website that uses HTML, CSS, and Bootstrap.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="project_2.jpg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">This is a website I created for a client who wanted to display the furniture products they made. This is a responsive and elegant website that uses HTML, CSS, and Bootstrap.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="project_3.jpg" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">This is a website that I created for a client who wanted to display products in the form of shoes he made. It is a responsive and elegant website that uses HTML, CSS, and Bootstrap.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Projects -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center">Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="client_1.jpeg" class="img-thumbnail rounded-circle" alt="client_1" />
+                        </div>
+                        <div class="col-8">
+                          <h5>Susi</h5>
+                          <p>
+                            “Yuda is a reliable and professional web developer. I am very satisfied with the portfolio website he created for me. The website is very responsive, interactive and modern. Yuda was also very communicative and
+                            responsive in responding to my requests and input.”
+                          </p>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="client_2.jpeg" class="img-thumbnail rounded-circle" alt="client_2" />
+                        </div>
+                        <div class="col-8">
+                          <h5>Kobe</h5>
+                          <p>
+                            “I recommend Yuda as a reliable web developer. I worked with Yuda to create my blog site. Yuda really understands what I want and is able to make it happen well. My blog site is now very attractive and easy to
+                            use.”
+                          </p>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star fa-star-half"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="client_3.jpeg" class="img-thumbnail rounded-circle" alt="client_3" />
+                        </div>
+                        <div class="col-8">
+                          <h5>Yudi</h5>
+                          <p>
+                            “Yuda is a creative and talented web developer. I was very impressed with the e-commerce website he created for my business. The website is very functional, elegant, and safe. Yuda is also very flexible and
+                            cooperative in working with me.”
+                          </p>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>
+                          <span class="fa fa-star-half"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End of Testimonials -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact bg-dark text-white">
+      <div class="container">
+         <h2 class="text-center">Contact Me</h2>
+         <p class="text-center">If you have any questions, feedback, or suggestions, feel free to contact me using the form below or follow me on social media.</p>
+         <div class="row justify-content-center">
+           <div class="col-md-8">
+            <form action="contact.php" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+
+            </form>
+            
+            <div class="col-ml-3">
+              <div class="social-icons d-flex justify-content-center">
+                <a href="https://www.instagram.com/your_instagram_username" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/your_facebook_username" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/your_linkedin_username" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/your_whatsapp_number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark text-white">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>© 2023 I Gede Diva Ari Yuda. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
